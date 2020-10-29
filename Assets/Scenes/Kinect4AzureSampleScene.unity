@@ -127,6 +127,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 847802396}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &239264528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1142928000, guid: 019b917704c3c29478d778e143d411d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 847802396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &336882190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 319584917, guid: 019b917704c3c29478d778e143d411d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 847802396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &522368193
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +288,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &734619908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 439313444, guid: 019b917704c3c29478d778e143d411d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 847802396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &847802396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -330,6 +348,14 @@ PrefabInstance:
     - target: {fileID: 210279053, guid: 019b917704c3c29478d778e143d411d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 319584917, guid: 019b917704c3c29478d778e143d411d2, type: 3}
+      propertyPath: m_Name
+      value: rightShoulder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074493412, guid: 019b917704c3c29478d778e143d411d2, type: 3}
+      propertyPath: m_Name
+      value: rightWrist
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019b917704c3c29478d778e143d411d2, type: 3}
@@ -448,13 +474,25 @@ MonoBehaviour:
   MLController: {fileID: 11400000, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
   GameObjectsToUse:
   - {fileID: 1480424272}
+  - {fileID: 734619908}
+  - {fileID: 336882190}
+  - {fileID: 239264528}
   m_GOsPerGONodes:
     m_keys:
     - {fileID: 1480424272}
+    - {fileID: 336882190}
+    - {fileID: 734619908}
+    - {fileID: 239264528}
     m_values:
     - {fileID: 8825493566957549725, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+    - {fileID: 3821274322829523706, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+    - {fileID: 6568125641271634798, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+    - {fileID: -8919301712240560554, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
   m_GameObjectNodeList:
   - {fileID: 8825493566957549725, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+  - {fileID: 3821274322829523706, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+  - {fileID: 6568125641271634798, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
+  - {fileID: -8919301712240560554, guid: dc72c010a283a9d4380596c49ad18bf2, type: 2}
   m_ScriptNodesList: []
   FeaturesUpdated: 0
   ComponentsWithIMLData: []

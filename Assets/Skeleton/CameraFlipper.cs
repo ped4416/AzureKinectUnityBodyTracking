@@ -19,7 +19,7 @@ public class CameraFlipper : MonoBehaviour
         {
             cam.ResetWorldToCameraMatrix();
             cam.ResetProjectionMatrix();
-            Vector3 scale = new Vector3(-1, 1, 1);
+            Vector3 scale = new Vector3(1, -1, 1);
             cam.projectionMatrix = cam.projectionMatrix * Matrix4x4.Scale(scale);
         }
     }
